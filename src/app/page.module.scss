@@ -1,0 +1,46 @@
+.conteiner {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.first_head {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+
+    &_item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &_svg {
+            width: 15px;
+        }
+
+        &_text {
+            margin-left: 10px;
+        }
+    }
+}
+
+.second_head {
+    margin: 15px 0px;
+
+    &_menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+
+        &_link {
+            text-decoration: none;
+            color: #E7D5A1;
+        }
+
+        &_img {
+            margin-left: 40px;
+        }
+    }
+}
