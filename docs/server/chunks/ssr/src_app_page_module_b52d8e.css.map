@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/page.module.css"],"sourcesContent":[".conteiner {\n  max-width: 1600px;\n  width: 100%;\n  margin: 0 auto;\n}\n\n.first_head {\n  margin: 15px 0px;\n  display: flex;\n  justify-content: space-between;\n}\n.first_head_item {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n.first_head_item_svg {\n  width: 15px;\n}\n.first_head_item_text {\n  margin-left: 10px;\n}\n\n.second_head {\n  margin: 15px 0px;\n}\n.second_head_menu {\n  display: flex;\n  justify-content: space-between;\n  flex-direction: row;\n  align-items: center;\n  list-style: none;\n}\n.second_head_menu_link {\n  text-decoration: none;\n  color: #E7D5A1;\n}\n.second_head_menu_img {\n  margin-left: 40px;\n}/*# sourceMappingURL=page.module.css.map */"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;AAKA;;;;;;AAKA;;;;AAGA;;;;AAIA;;;;AAGA;;;;;;;;AAOA;;;;;AAIA"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

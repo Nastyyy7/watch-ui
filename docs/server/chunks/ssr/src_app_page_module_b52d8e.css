@@ -1,0 +1,49 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-module___8aEwW__first_head {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-module___8aEwW__first_head_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.page-module___8aEwW__first_head_item_svg {
+  width: 15px;
+}
+
+.page-module___8aEwW__first_head_item_text {
+  margin-left: 10px;
+}
+
+.page-module___8aEwW__second_head {
+  margin: 15px 0;
+}
+
+.page-module___8aEwW__second_head_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.page-module___8aEwW__second_head_menu_link {
+  text-decoration: none;
+  color: #e7d5a1;
+}
+
+.page-module___8aEwW__second_head_menu_img {
+  margin-left: 40px;
+}
+
+/*# sourceMappingURL=src_app_page_module_b52d8e.css.map*/

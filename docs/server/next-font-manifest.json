@@ -1,0 +1,10 @@
+{
+  "app": {
+    "[project]/src/app/page": [
+      "static/media/PlayfairDisplay-s.p.51c90b46.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
