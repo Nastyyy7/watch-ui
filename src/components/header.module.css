@@ -1,0 +1,80 @@
+.conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.first_head {
+  margin: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.first_head_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.first_head_item_phone {
+  background-image: url(../../public/phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 20px;
+  height: 26px;
+}
+.first_head_item_logo {
+  background-image: url(../../public/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 155px;
+  height: 61px;
+}
+.first_head_item_place {
+  background-image: url(../../public/tochka.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 15px;
+  height: 24px;
+}
+.first_head_item_text {
+  margin-left: 10px;
+}
+
+.second_head {
+  margin: 15px 0px;
+}
+.second_head_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+.second_head_menu_link {
+  text-decoration: none;
+  color: #E7D5A1;
+}
+.second_head_menu_icon {
+  display: flex;
+}
+.second_head_menu_icon_img {
+  margin-left: 40px;
+}
+.second_head_menu_icon_img_person {
+  background-image: url(../../public/person.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 33px;
+  height: 33px;
+}
+.second_head_menu_icon_img_basket {
+  background-image: url(../../public/basket.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 36px;
+  height: 34px;
+}/*# sourceMappingURL=header.module.css.map */

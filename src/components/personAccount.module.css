@@ -1,0 +1,70 @@
+.conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.account_title {
+  font-size: 36px;
+  font-weight: 600;
+}
+.account_data {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.account_data_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.account_data_info_details {
+  display: flex;
+  gap: 40px;
+}
+.account_data_info_details_text {
+  font-weight: 600;
+}
+.account_data_info_btn {
+  display: flex;
+  gap: 20px;
+}
+.account_data_info_btn_edit {
+  color: #3D4149;
+  background-color: #E7D5A1;
+  text-decoration: none;
+  padding: 6px 50px;
+  border-radius: 10px;
+}
+.account_data_info_delete_link {
+  font-size: 24px;
+  color: #EBE9E5;
+  opacity: 0.7;
+}
+.account_data_info_delete_text {
+  font-size: 18px;
+  opacity: 0.7;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.order_title {
+  font-size: 32px;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.history_title {
+  font-size: 32px;
+}/*# sourceMappingURL=personAccount.module.css.map */

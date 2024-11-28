@@ -1,0 +1,42 @@
+.conteiner {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.watch {
+    background-image: url(../../../public/service-watch.png);
+    background-repeat: no-repeat;
+    background-position: 100% center;
+}
+
+.content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    &_block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_img {
+            background-image: url(../../../public/services.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            pointer-events: none;
+            width: 425px;
+            height: 1100px;
+            border-radius: 10px;
+        }
+
+        &_text {
+            width: 1130px;
+        }
+    }
+
+    &_text {
+        font-size: 28px;
+    }
+}

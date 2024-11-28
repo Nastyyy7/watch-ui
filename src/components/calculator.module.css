@@ -1,0 +1,116 @@
+.conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calculator_block {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+.calculator_block_brand {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.calculator_block_brand_input {
+  background-color: #3D4149;
+  border-color: #E7D5A1;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.calculator_block_brand_select {
+  background-color: #3D4149;
+  border-color: #E7D5A1;
+  color: #E7D5A1;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.calculator_block_type {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.calculator_block_type_input {
+  background-color: #3D4149;
+  border-color: #E7D5A1;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.calculator_block_repair {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.calculator_block_repair_checked {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.calculator_block_repair_checked_input {
+  color: #3D4149;
+  border: 2px #E7D5A1;
+  accent-color: #E7D5A1;
+  width: 20px;
+  height: 20px;
+}
+.calculator_block_more {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.calculator_block_more_checked {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.calculator_block_more_checked_input {
+  color: #3D4149;
+  border: 2px #E7D5A1;
+  accent-color: #E7D5A1;
+  width: 20px;
+  height: 20px;
+}
+.calculator_result {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.calculator_result_title {
+  font-size: 30px;
+}
+.calculator_result_price {
+  font-size: 36px;
+}
+.calculator_result_note {
+  font-size: 20px;
+}
+.calculator_result_button {
+  margin-top: 5%;
+  color: #3D4149;
+  background-color: #E7D5A1;
+  text-decoration: none;
+  padding: 13px 36px;
+  border-radius: 10px;
+  font-weight: 600;
+}/*# sourceMappingURL=calculator.module.css.map */

@@ -1,0 +1,87 @@
+.conteiner {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &_img {
+        background-image: url(../../public/logo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        pointer-events: none;
+        width: 155px;
+        height: 61px
+    }
+
+    &_content {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        
+        &_mode {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            &_datatime {
+                width: 470px;
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        &_contacts {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            &_type {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 10px;
+                &_email {
+                    background-image: url(../../public/email.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    pointer-events: none;
+                    width: 23px;
+                    height: 15px
+                }
+                &_phone {
+                    background-image: url(../../public/phone.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    pointer-events: none;
+                    width: 20px;
+                    height: 27px
+                }
+                &_place {
+                    background-image: url(../../public/tochka.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    pointer-events: none;
+                    width: 15px;
+                    height: 20px
+                }
+            }
+        }
+    }
+
+    &_copyright {
+        margin: 40px 0px 10px;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+
+        &_link {
+            color: #E7D5A1;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.conteiner {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    &_title {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    &_data {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        &_info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &_details {
+                display: flex;
+                gap: 40px;
+
+                &_text {
+                    font-weight: 600;
+                }
+            }
+
+            &_btn {
+                display: flex;
+                gap: 20px;
+
+                &_edit {
+                    color: #3D4149;
+                    background-color: #E7D5A1;
+                    text-decoration: none;
+                    padding: 6px 50px;
+                    border-radius: 10px;
+                }
+            }
+
+            &_delete {
+                &_link {
+                    font-size: 24px;
+                    color: #EBE9E5;
+                    opacity: 0.7;
+
+                }
+
+                &_text {
+                    font-size: 18px;
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &_title {
+        font-size: 32px;
+    }
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &_title {
+        font-size: 32px;
+    }
+}
+

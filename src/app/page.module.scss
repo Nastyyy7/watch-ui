@@ -4,43 +4,120 @@
     margin: 0 auto;
 }
 
-.first_head {
-    margin: 15px 0px;
+
+.fon {
+    background-image: url(../../public/fon.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 
-    &_item {
+    &_logo {
+        background-image: url(../../public/main-logo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        pointer-events: none;
+        width: 711px;
+        height: 280px;
+    }
+
+    &_img {
+        background-image: url(../../public/main-watch.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        pointer-events: none;
+        width: 585px;
+        height: 800px
+    }
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    &_block {
+        margin: 50px 0px;
+        width: 1100px;
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px 235px;
 
-        &_svg {
-            width: 15px;
-        }
+        &_item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
 
-        &_text {
-            margin-left: 10px;
+            &_img1 {
+                background-image: url(../../public/icon-watch.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                pointer-events: none;
+                width: 122px;
+                height: 170px
+            }
+
+            &_img2 {
+                background-image: url(../../public/icon-watch2.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                pointer-events: none;
+                width: 165px;
+                height: 165px;
+            }
+
+            &_img3 {
+                background-image: url(../../public/icon-watch3.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                pointer-events: none;
+                width: 150px;
+                height: 171px;
+            }
+
+            &_img4 {
+                background-image: url(../../public/battery.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                pointer-events: none;
+                width: 180px;
+                height: 105px;
+            }
+
+            &_img5 {
+                background-image: url(../../public/repair.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                pointer-events: none;
+                width: 209px;
+                height: 172px
+            }
+
+            &_text {
+                font-weight: 300;
+                margin-top: 25px;
+            }
         }
     }
 }
 
-.second_head {
-    margin: 15px 0px;
-
-    &_menu {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        align-items: center;
-        list-style: none;
-
-        &_link {
-            text-decoration: none;
-            color: #E7D5A1;
-        }
-
-        &_img {
-            margin-left: 40px;
-        }
-    }
+.watch {
+    background-image: url(../../public/watch.webp);
+    background-repeat: no-repeat;
+    background-position: 100% center;
 }

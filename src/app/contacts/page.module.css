@@ -1,0 +1,67 @@
+.conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  margin: 40px 0;
+}
+
+.contact {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact_content {
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact_content_mode {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact_content_mode_datatime {
+  width: 665px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact_content_contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact_content_contacts_type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contact_content_contacts_type_place {
+  background-image: url(../../../public/tochka.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 25px;
+  height: 35px;
+}
+.contact_content_contacts_type_email {
+  background-image: url(../../../public/email.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 39px;
+  height: 26px;
+}
+.contact_content_contacts_type_phone {
+  background-image: url(../../../public/phone.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 28px;
+  height: 36px;
+}/*# sourceMappingURL=page.module.css.map */
