@@ -24,15 +24,15 @@ export default function Home() {
             <div className={styles.contact_content}>
               <div className={styles.contact_content_contacts}>
                 <div className={styles.contact_content_contacts_type}>
-                  <div className={styles.contact_content_contacts_type_place}></div>
+                  <div className={styles.contact_content_contacts_type_place} alt="Место положени:"></div>
                   <p>Москва, проспект Мира, д. 97</p>
                 </div>
                 <div className={styles.contact_content_contacts_type}>
-                  <div className={styles.contact_content_contacts_type_email}></div>
+                  <div className={styles.contact_content_contacts_type_email} alt="Почта:"></div>
                   <p>watch97@yandex.ru</p>
                 </div>
                 <div className={styles.contact_content_contacts_type}>
-                  <div className={styles.contact_content_contacts_type_phone}></div>
+                  <div className={styles.contact_content_contacts_type_phone} alt="Номер телефона:"></div>
                   <p>+7 495 616-68-54</p>
                 </div>
               </div>

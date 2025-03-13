@@ -1,16 +1,44 @@
+'use client'
 import Image from "next/image";
+import { useState } from 'react';
 import styles from "./page.module.css";
 import { Header } from "@/components/Header"
 import { Calc } from "@/components/Calc";
 import { Watch } from "@/components/Watch"
 import { Footer } from "@/components/Footer"
+import { SignupForm } from "@/components/SignupForm"
+import { LoginForm } from "@/components/LoginForm"
 
 export default function Home() {
+  const [isSignupFormOpen, setSignupFormOpen] = useState(false); // Состояние для управления модальным окном регистрации
+  const [isLoginFormOpen, setLoginFormOpen] = useState(false); // Для авторизации
+  
+  const openSignupForm = () => {
+    setSignupFormOpen(true); // Открытие модального окнаopenSignupForm
+    setLoginFormOpen(false); // Закрыть авторизацию, если открыта регистрация
+  };
+
+  const closeSignupForm = () => {
+    setSignupFormOpen(false); // Закрытие модального окна
+  };
+  
+  const openLoginForm = () => {
+    setLoginFormOpen(true);
+    setSignupFormOpen(false); // Закрыть регистрацию, если открыта авторизация
+  };
+
+  const closeLoginForm = () => {
+    setLoginFormOpen(false);
+  };
+
   return (
+    
     <>
-      <Header />
+      <Header openSignupForm={openSignupForm}/>
+      {isSignupFormOpen && <SignupForm onClose={closeSignupForm} onOpenLogin={openLoginForm} />}
+      {isLoginFormOpen && <LoginForm onClose={closeLoginForm} onOpenSignup={openSignupForm} />}
       <section>
-        <div className={styles.fon} rel="preload">
+        <div className={styles.fon} rel="preload" as="style">
           <div className={styles.conteiner}>
             <div className={styles.main}>
               <div className={styles.main_logo}></div>

@@ -1,0 +1,127 @@
+.conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  text-decoration: none;
+}
+.link_img {
+  background-image: url(../../../public/backTo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 20px;
+  height: 18px;
+}
+.link_text {
+  color: #E7D5A1;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.card_block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  gap: 15px;
+}
+.card_block_title {
+  font-size: 40px;
+}
+.card_block_article {
+  font-size: 15px;
+}
+.card_block_price {
+  font-size: 41px;
+}
+.card_block_btn {
+  display: flex;
+  gap: 15px;
+}
+.card_block_btn_quantity {
+  background-color: #E7D5A1;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.card_block_btn_quantity_minus {
+  background-repeat: no-repeat;
+  background-color: #E7D5A1;
+  border: none;
+  align-items: center;
+  display: flex;
+  background-image: url(../../../public/minus.svg);
+  width: 16px;
+}
+.card_block_btn_quantity_text {
+  color: #3D4149;
+  margin: 0 15px;
+}
+.card_block_btn_quantity_plus {
+  background-repeat: no-repeat;
+  background-color: #E7D5A1;
+  border: none;
+  background-image: url(../../../public/plus.svg);
+  width: 18px;
+}
+.card_block_btn_buy {
+  width: 150px;
+  background-color: #E7D5A1;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.card_block_btn_buy_image {
+  background-image: url(../../../public/black-basket.svg);
+  background-color: #E7D5A1;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 22px;
+  border: none;
+}
+.card_block_btn_buy_text {
+  color: #3D4149;
+  background-color: #E7D5A1;
+  font-size: 24px;
+  font-weight: 500;
+  border: none;
+}
+
+.properties {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.properties_information {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.properties_information_variable {
+  display: flex;
+  width: 40%;
+  gap: 20%;
+}
+.properties_information_variable_name {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}/*# sourceMappingURL=card.module.css.map */

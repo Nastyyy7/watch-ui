@@ -1,0 +1,111 @@
+.conteiner {
+  max-width: 1600px;
+  min-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.calc {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.calc_img {
+  background-image: url(../../../public/calc-watch.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 450px;
+  height: 300px;
+}
+.calc_content {
+  width: 575px;
+}
+.calc_content_text {
+  margin-bottom: 60px;
+}
+.calc_content_button {
+  color: #3D4149;
+  background-color: #E7D5A1;
+  text-decoration: none;
+  padding: 13px 36px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    max-width: 1400px;
+    min-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .calc {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .calc_img {
+    background-image: url(../../../public/calc-watch.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 380px;
+    height: 250px;
+  }
+  .calc_content {
+    width: 475px;
+  }
+  .calc_content_text {
+    margin-bottom: 40px;
+  }
+  .calc_content_button {
+    color: #3D4149;
+    background-color: #E7D5A1;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 800px;
+    min-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .calc {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .calc_img {
+    background-image: url(../../../public/calc-watch.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 300px;
+    height: 200px;
+  }
+  .calc_content {
+    width: 100%;
+  }
+  .calc_content_text {
+    margin-bottom: 30px;
+  }
+  .calc_content_button {
+    color: #3D4149;
+    background-color: #E7D5A1;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=calc.module.css.map */

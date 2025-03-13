@@ -1,5 +1,6 @@
 .conteiner {
   max-width: 1600px;
+  min-width: 1024px;
   width: 100%;
   margin: 0 auto;
 }
@@ -70,7 +71,7 @@
   background-size: cover;
   pointer-events: none;
   width: 165px;
-  height: 165px;
+  height: 166px;
 }
 .offers_block_item_img3 {
   background-image: url(../../public/icon-watch3.svg);
@@ -105,4 +106,219 @@
   background-image: url(../../public/watch.webp);
   background-repeat: no-repeat;
   background-position: 100% center;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .conteiner {
+    max-width: 1280px;
+    min-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fon {
+    background-image: url(../../public/fon.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main_logo {
+    background-image: url(../../public/main-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 650px;
+    height: 250px;
+  }
+  .main_img {
+    background-image: url(../../public/main-watch.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 500px;
+    height: 640px;
+  }
+  .offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .offers_title {
+    margin-top: 35px;
+    font-size: 36px;
+  }
+  .offers_block {
+    margin: 50px 0px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px 175px;
+  }
+  .offers_block_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .offers_block_item_img1 {
+    background-image: url(../../public/icon-watch.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 90px;
+    height: 130px;
+  }
+  .offers_block_item_img2 {
+    background-image: url(../../public/icon-watch2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 120px;
+    height: 120px;
+  }
+  .offers_block_item_img3 {
+    background-image: url(../../public/icon-watch3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 110px;
+    height: 130px;
+  }
+  .offers_block_item_img4 {
+    background-image: url(../../public/battery.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 140px;
+    height: 80px;
+  }
+  .offers_block_item_img5 {
+    background-image: url(../../public/repair.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 160px;
+    height: 130px;
+  }
+  .offers_block_item_text {
+    font-weight: 300;
+    margin-top: 18px;
+  }
+  .watch {
+    background-image: url(../../public/watch.webp);
+    background-repeat: no-repeat;
+    background-position: 100% center;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .conteiner {
+    max-width: 1024px;
+    min-width: 768px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .fon {
+    background-image: url(../../public/fon.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main_logo {
+    background-image: url(../../public/main-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 456px;
+    height: 180px;
+  }
+  .main_img {
+    background-image: url(../../public/main-watch.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 372px;
+    height: 480px;
+  }
+  .offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .offers_title {
+    margin-top: 35px;
+    font-size: 36px;
+  }
+  .offers_block {
+    margin: 50px 0px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px 175px;
+  }
+  .offers_block_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .offers_block_item_img1 {
+    background-image: url(../../public/icon-watch.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 78px;
+    height: 110px;
+  }
+  .offers_block_item_img2 {
+    background-image: url(../../public/icon-watch2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 105px;
+    height: 106px;
+  }
+  .offers_block_item_img3 {
+    background-image: url(../../public/icon-watch3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 96px;
+    height: 110px;
+  }
+  .offers_block_item_img4 {
+    background-image: url(../../public/battery.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 115px;
+    height: 65px;
+  }
+  .offers_block_item_img5 {
+    background-image: url(../../public/repair.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 134px;
+    height: 110px;
+  }
+  .offers_block_item_text {
+    font-weight: 300;
+    margin-top: 16px;
+  }
+  .watch {
+    background-image: url(../../public/watch.webp);
+    background-repeat: no-repeat;
+    background-position: 100% center;
+  }
 }/*# sourceMappingURL=page.module.css.map */

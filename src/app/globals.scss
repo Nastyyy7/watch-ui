@@ -8,6 +8,7 @@ body {
   background-color: #3D4149;
   color: #E7D5A1;
   font-size: 24px;
+  // font-weight: 100;
   overflow-x: hidden;
 }
 
@@ -17,6 +18,16 @@ hr {
   height: 0;
 	border: none;
 	box-shadow: 0 0 2px 1px #E7D5A1;
+}
+
+@media (min-width: 768px) and (max-width: 1314px) {
+  body {
+    background-color: #3D4149;
+    color: #E7D5A1;
+    font-size: 20px;
+    // font-weight: 100;
+    overflow-x: hidden;
+  }
 }
 
 // :root {

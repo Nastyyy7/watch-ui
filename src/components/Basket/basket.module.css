@@ -1,0 +1,121 @@
+.conteiner {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.link {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  text-decoration: none;
+}
+.link_img {
+  background-image: url(../../../public/backTo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  width: 20px;
+  height: 18px;
+}
+.link_text {
+  color: #E7D5A1;
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 40px;
+}
+.basket_title {
+  font-weight: 600;
+  font-size: 36px;
+}
+.basket_card {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.basket_card_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+.basket_card_block_name_title {
+  font-size: 36px;
+}
+.basket_card_block_name_article {
+  font-size: 20px;
+}
+.basket_card_block_price {
+  font-size: 41px;
+}
+.basket_card_block_btn {
+  display: flex;
+  gap: 15px;
+}
+.basket_card_block_btn_quantity {
+  background-color: #E7D5A1;
+  display: flex;
+  padding: 1px 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.basket_card_block_btn_quantity_minus {
+  background-repeat: no-repeat;
+  background-color: #E7D5A1;
+  border: none;
+  align-items: center;
+  display: flex;
+  background-image: url(../../../public/minus.svg);
+  width: 20px;
+}
+.basket_card_block_btn_quantity_text {
+  color: #3D4149;
+  font-size: 30px;
+  margin: 0 15px;
+}
+.basket_card_block_btn_quantity_plus {
+  background-repeat: no-repeat;
+  background-color: #E7D5A1;
+  border: none;
+  background-image: url(../../../public/plus.svg);
+  width: 22px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.details_title {
+  font-size: 32px;
+}
+.details_information {
+  display: flex;
+  gap: 80px;
+}
+.details_information_price {
+  font-weight: 600;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.total_btn {
+  color: #3D4149;
+  background-color: #E7D5A1;
+  text-decoration: none;
+  text-align: center;
+  padding: 13px 36px;
+  border-radius: 10px;
+  font-weight: 600;
+}/*# sourceMappingURL=basket.module.css.map */

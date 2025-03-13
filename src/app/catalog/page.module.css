@@ -126,4 +126,14 @@
 .filter_choice_price_type_form_input::-webkit-outer-spin-button, .filter_choice_price_type_form_input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.pages {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.pages_item {
+  list-style: none;
 }/*# sourceMappingURL=page.module.css.map */
