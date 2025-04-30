@@ -15,15 +15,15 @@ export const SignupFormSchema = z.object({
       message: 'Содержит по крайней мере один специальный символ.',
     })
     .trim(),
-    password_confirmation: z
-    .string()
-    .min(8, { message: 'Длина должна быть не менее 8 символов' })
-    .regex(/[a-zA-Z]/, { message: 'Содержать хотя бы одну букву.' })
-    .regex(/[0-9]/, { message: 'Содержит по крайней мере одно число.' })
-    .regex(/[^a-zA-Z0-9]/, {
-      message: 'Содержит по крайней мере один специальный символ.',
-    })
-    .trim(),
+    // password_confirmation: z
+    // .string()
+    // .min(8, { message: 'Длина должна быть не менее 8 символов' })
+    // .regex(/[a-zA-Z]/, { message: 'Содержать хотя бы одну букву.' })
+    // .regex(/[0-9]/, { message: 'Содержит по крайней мере одно число.' })
+    // .regex(/[^a-zA-Z0-9]/, {
+    //   message: 'Содержит по крайней мере один специальный символ.',
+    // })
+    // .trim(),
 
 }).superRefine(({ password_confirmation, password }, ctx) => {
   if (password_confirmation !== password) {

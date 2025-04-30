@@ -35,7 +35,7 @@ export async function auth(state, formData) {
     // const cookieStore = await cookies()
     cookies().set({
         name: 'User',
-        value: data.token,
+        value: data.user_id,
         httpOnly: true,
         path: '/',
         secure: false, //включить https и переключить на true

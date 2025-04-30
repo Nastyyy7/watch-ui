@@ -14,15 +14,15 @@ function Card({product}) {
                 </a>
                 <article className={styles.card}>
                     <img src="../../foto.png" alt="7001410" width={630} height={767} style={{ borderRadius: '10px', pointerEvents: 'none' }} />
-                    <Image
+                    {/* <Image
                         src={Foto}
                         width={630}
                         height={767}
                         style={{ borderRadius: '10px', pointerEvents: 'none' }}
-                        alt="7001410" />
+                        alt="7001410" /> */}
                     <div className={styles.card_block}>
                         <h3 className={styles.card_block_title}>{product.attributes.name}</h3>
-                        <p className={styles.card_block_article}>Артикул: <span>{properties.article}</span></p>
+                        <p className={styles.card_block_article}>Артикул: <span>{properties?.article??"Нет"}</span></p>
                         <p className={styles.card_block_price}>{product.attributes.price}<span>руб</span></p>
                         <div className={styles.card_block_btn}>
                             <form className={styles.card_block_btn_quantity} action="">

@@ -7,13 +7,24 @@ import { cookies } from 'next/headers'
 async function PersonAccount() {
     const cookieStore = await cookies()
     const User = cookieStore.get('User')
-
+    // я поняла что выше мы получаем куку, в которой уже хранться передаваемый айди юзера, но я не понимаю по какому пути к нему обращаться
+    // http://127.0.0.1:8000/api/v1/login
+    // {
+    //     "token": "31|OKk4y6KNgyfHEyL14Lax6DgigL3RFOaJLVWfmaanb209c417",
+    //     "user_id": 26
+    // }
+    const uri = new URL("http://127.0.0.1:8000/api/v1/users/" + User.value);
+    const response = await fetch(uri, {
+      headers: {
+        'Accept': 'application/vnd.api+json'
+      }
+    });
+    const user = await response.json();
     return (
         <section>
             <div className={styles.conteiner}>
                 <div className={styles.account}>
                     <p className={styles.account_title}>Личный кабинет</p>
-                    <p>{User.value}</p>
                     <div className={styles.account_data}>
                         <img src="../../account.png" width={345} height={345} style={{ borderRadius: '50px', pointerEvents: 'none' }} alt="default_avatar" />
                         {/* <Image
@@ -25,15 +36,11 @@ async function PersonAccount() {
                         <div className={styles.account_data_info}>
                             <div className={styles.account_data_info_details}>
                                 <p className={styles.account_data_info_details_text}>Имя</p>
-                                <p className={styles.account_data_info_details_variable}>Anna</p>
+                                <p className={styles.account_data_info_details_variable}>{user.name}</p>
                             </div>
                             <div className={styles.account_data_info_details}>
                                 <p className={styles.account_data_info_details_text}>Email</p>
-                                <p className={styles.account_data_info_details_variable}>nghbfdgfh@kvfdfid.ry</p>
-                            </div>
-                            <div className={styles.account_data_info_details}>
-                                <p className={styles.account_data_info_details_text}>Номер телефона</p>
-                                <p className={styles.account_data_info_details_variable}>88888888888</p>
+                                <p className={styles.account_data_info_details_variable}>{user.email}</p>
                             </div>
                             <div className={styles.account_data_info_btn}>
                                 <Link className={styles.account_data_info_btn_edit} href="">Изменить</Link>

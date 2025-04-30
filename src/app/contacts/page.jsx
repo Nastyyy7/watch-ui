@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
-import { Map } from "@/components/Map"
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { Map } from "@/components/Map";
 
 export const metadata = {
   title: "Контакты",

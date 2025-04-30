@@ -45,7 +45,7 @@ function Basket() {
                         <p className={styles.details_information_price}>2500 руб</p>
                     </div>
                 </div>
-                <hr />
+                <hr /> 
                 <div className={styles.total}>
                     <h3 className={styles.total_title}>Итого:</h3>
                     <p className={styles.total_price}>2500 руб</p>

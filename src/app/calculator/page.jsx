@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Header } from "@/components/Header"
-import { Footer } from "@/components/Footer"
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { Calculator } from "@/components/Calculator";
 
 export const metadata = {
